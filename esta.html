@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mi Web Test </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/esta.css'>
+</head>
+
+<body>
+    <header>
+        <h1> Bienvenido! </h1>
+    </header>
+
+    <form id="entrada-establecimiento" onsubmit="return false;">
+        <label for="Nombre">Nombres: </label>
+        <input type="text" id="primer-nombre" placeholder="Primer Nombre" />
+        <input type="text" id="segundo-nombre" placeholder="Segundo Nombre" />
+        <button type="reset" id="reiniciar-datos" >Reiniciar Campos</button>
+        <br>
+        <hr id="primer-separador" class="rounded"><br>
+        <label for="Apellidos">Apellidos: </label>
+        <input type="text" id="tus-apellidos" placeholder="Apellido" />
+        <label for="Edad">Edad: </label>
+        <input type="number" id="edad" placeholder="Ingresá Edad" />
+        <input type="submit" id="procesar" value="Ingresar Datos" />
+    </form>
+
+    <div id="texto-div1">
+
+    </div>
+
+    <script src='js/main.js'></script>
+</body>
+
+</html>

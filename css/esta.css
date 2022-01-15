@@ -1,0 +1,54 @@
+html {
+    background-color: AliceBlue;
+}
+
+#edad {
+    width: 95px;
+}
+
+#tus-apellidos, #primer-nombre {
+    width: 120px;
+}
+
+#segundo-nombre {
+    width: 145px;
+}
+
+#primer-separador {
+    margin-left: 1px; 
+    margin-top: 10px; 
+    margin-bottom: -5px; 
+    width: 500px; 
+    border-radius: 10px;
+}
+
+label {
+    font-family: helvetica; 
+    font-weight: bold; 
+    Color: rgba(0, 85, 85, 0.8); 
+    text-shadow: 1px 1px 2px rgb(128, 128, 128)
+}
+
+h1 {
+    align-self: flex-start; 
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    font-size: 40px ;
+    font-family: helvetica; 
+    font-weight: bold; 
+    Color: IndianRed; 
+    text-shadow: 1px 1px 2px grey;
+}
+
+#texto-div1 {
+    align-self: flex-start; 
+    margin-block-start: 20px; 
+    margin-block-end: 20px; 
+    font-size: 20px ; 
+    font-family: helvetica; 
+    font-weight: bold; 
+    Color: DarkSlateGray; 
+    text-shadow: 1px 1px 2px grey;
+    background-color: rgb(200 200 200 / 30%);
+    width: fit-content; 
+}
