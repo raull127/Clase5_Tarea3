@@ -11,7 +11,7 @@ document.querySelector("#entrada-establecimiento").onsubmit = function () {
   const textoH1 = document.querySelector("h1");
 
   textoDiv.innerText = `Datos del Usuario: \n\n Nombres: ${primerNombre} ${segundoNombre} \n Apellidos: ${apellido} \n Edad: ${edad}`;
-  textoH1.innerText = `Bienvenido, ${primerNombre} ${apellido}`;
+  textoH1.innerText = `Bienvenido, ${primerNombre} ${apellido}!`;
 
   return false;
 }
